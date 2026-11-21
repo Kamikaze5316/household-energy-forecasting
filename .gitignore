@@ -1,0 +1,32 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated model artifacts (create locally from the Colab notebook)
+artifacts/*
+!artifacts/README.md
+!artifacts/.gitkeep
+streamlit_artifacts.zip
+
+# Raw and processed datasets
+data/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
